@@ -3,6 +3,7 @@ import * as RethinkDBDash from "rethinkdbdash";
 import {Model} from "./model";
 import {ThinkyErrors} from "./errors";
 import {Type} from "./type/index";
+import { TypeAny } from "./type/any";
 
 interface ThinkyInstance {
   (opts: ThinkyOpts): Thinky;
@@ -91,7 +92,7 @@ interface ThinkyOpts {
 }
 
 interface ModelSchema {
-  [key: string]: Type | ModelSchema;
+  [key: string]: TypeAny | ModelSchema;
 }
 
 interface ModelSchemaOptions {
