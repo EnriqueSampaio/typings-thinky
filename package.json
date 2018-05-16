@@ -1,7 +1,0 @@
-{
-  "private": true,
-  "dependencies": {
-    "typings-rethinkdbdash": "github:EnriqueSampaio/typings-rethinkdbdash"
-  },
-  "version": "0.1.0"
-}

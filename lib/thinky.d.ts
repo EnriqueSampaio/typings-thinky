@@ -1,4 +1,4 @@
-import * as RethinkDBDash from "typings-rethinkdbdash";
+import {Term} from "typings-rethinkdbdash/lib/index.d";
 
 import {Model} from "./model";
 import {ThinkyErrors} from "./errors";
@@ -21,7 +21,7 @@ declare class Thinky {
   /**
    * The thinky object keeps a reference to the driver in the property r.
    */
-  r: RethinkDBDash.Term;
+  r: Term;
   /**
    * Thinky types.
    */
@@ -88,7 +88,7 @@ interface ThinkyOpts {
   /**
    * An instance of rethinkdbdash
    */
-  r?: RethinkDBDash.Term;
+  r?: Term;
 }
 
 interface ModelSchema {
