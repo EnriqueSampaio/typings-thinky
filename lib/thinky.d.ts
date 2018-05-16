@@ -1,4 +1,4 @@
-import * as RethinkDBDash from "rethinkdbdash";
+import * as RethinkDBDash from "typings-rethinkdbdash";
 
 import {Model} from "./model";
 import {ThinkyErrors} from "./errors";
