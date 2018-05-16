@@ -65,6 +65,14 @@ interface ThinkyOpts {
    */
   db?: string;
   /**
+   * The RethinkDB admin user, default "admin"
+   */
+  user?: string;
+  /**
+   * The RethinkDB admin password, default ""
+   */
+  password?: string;
+  /**
    * The authentification key to the RethinkDB server, default ""
    */
   authKey?: string;
