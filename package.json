@@ -8,7 +8,8 @@
   },
   "author": {
     "name": "Enrique Sampaio",
-    "email": "enriquesampaios@gmail.com"
+    "email": "enriquesampaios@gmail.com",
+    "url": "https://github.com/EnriqueSampaio"
   },
   "license": "MIT",
   "bugs": {
@@ -16,6 +17,6 @@
   },
   "homepage": "https://github.com/EnriqueSampaio/typings-thinky#readme",
   "dependencies": {
-    "@types/rethinkdbdash": "github:types/rethinkdbdash"
+    "@types/rethinkdbdash": "github:EnriqueSampaio/rethinkdbdash"
   }
 }
