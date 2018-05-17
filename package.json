@@ -1,0 +1,21 @@
+{
+  "name": "typings-thinky",
+  "version": "2.3.0",
+  "description": "Types for https://github.com/neumino/thinky",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnriqueSampaio/typings-thinky"
+  },
+  "author": {
+    "name": "Enrique Sampaio",
+    "email": "enriquesampaios@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnriqueSampaio/typings-thinky/issues"
+  },
+  "homepage": "https://github.com/EnriqueSampaio/typings-thinky#readme",
+  "dependencies": {
+    "@types/rethinkdbdash": "github:types/rethinkdbdash"
+  }
+}

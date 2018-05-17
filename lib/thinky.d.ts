@@ -1,9 +1,8 @@
-import {Term} from "typings-rethinkdbdash/lib/index.d";
-
 import {Model} from "./model";
 import {ThinkyErrors} from "./errors";
 import {Type} from "./type/index";
 import { TypeAny } from "./type/any";
+import * as rethinkdbdash from 'rethinkdbdash';
 
 interface ThinkyInstance {
   (opts: ThinkyOpts): Thinky;
@@ -21,7 +20,7 @@ declare class Thinky {
   /**
    * The thinky object keeps a reference to the driver in the property r.
    */
-  r: Term;
+  r: rethinkdbdash.ReqlClient;
   /**
    * Thinky types.
    */
@@ -88,7 +87,7 @@ interface ThinkyOpts {
   /**
    * An instance of rethinkdbdash
    */
-  r?: Term;
+  r?: rethinkdbdash.ReqlClient;
 }
 
 interface ModelSchema {
