@@ -17,11 +17,11 @@ export class Model {
   /**
    * Define a function that documents will be available for documents of this Model.
    */
-  define(key: string, fn: () => any): void;
+  define(key: string, fn: (...params: any[]) => any): void;
   /**
    * Define a function that will be available for this Model and on its query.
    */
-  defineStatic(key: string, fn: () => any): void;
+  defineStatic(key: string, fn: (...params: any[]) => any): void;
   /**
    * Ensure that an index named "name" exists. If it does not, it will create an index based on the name and the function fn provided.
    */
