@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/EnriqueSampaio/typings-thinky/issues"
   },
-  "homepage": "https://github.com/EnriqueSampaio/typings-thinky#readme",
-  "dependencies": {
-    "@types/rethinkdbdash": "github:EnriqueSampaio/rethinkdbdash"
-  }
+  "homepage": "https://github.com/EnriqueSampaio/typings-thinky#readme"
 }
